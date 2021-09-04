@@ -30,7 +30,7 @@ class Note {
     required this.description,
     required this.createdTime,
   });
-
+//sWriting obWriting obWriting obWriting obWriting obWriting obWriting obWriting obWriting objects:   0% (6/679), 5.48 MiB | 316.00 KiB/sjects:   0% (6/679), 5.48 MiB | 316.00 KiB/sjects:   0% (6/679), 5.48 MiB | 316.00 KiB/sjects:   0% (6/679), 5.48 MiB | 316.00 KiB/sjects:   0% (6/679), 5.48 MiB | 316.00 KiB/sjects:   0% (6/679), 5.48 MiB | 316.00 KiB/sjects:   0% (6/679), 5.48 MiB | 316.00 KiB/sjects:   0% (6/679), 5.48 MiB | 316.00 KiB/sjects:   0% (6/679), 5.48 MiB | 316.00 KiB/s
   Note copy({
     int? id,
     bool? isImportant,

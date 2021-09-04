@@ -71,16 +71,19 @@ class _NoteDetailPageState extends State<NoteDetailPage> {
       );
 
   Widget editButton() => IconButton(
-      icon: Icon(Icons.edit_outlined),
-      onPressed: () async {
-        if (isLoading) return;
+        icon: Icon(Icons.edit_outlined),
+        onPressed: () async {
+          if (isLoading) return;
 
-        await Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => AddEditNotePage(note: note),
-        ));
+          await Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) => AddEditNotePage(note: note),
+            ),
+          );
 
-        refreshNote();
-      });
+          refreshNote();
+        },
+      );
 
   Widget deleteButton() => IconButton(
         icon: Icon(Icons.delete),
